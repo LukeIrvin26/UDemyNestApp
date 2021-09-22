@@ -81,3 +81,5 @@ baseline.json
 .husky/_
 
 .dbdata
+
+uploads
