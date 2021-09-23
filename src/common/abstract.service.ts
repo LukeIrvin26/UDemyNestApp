@@ -33,6 +33,9 @@ export abstract class AbstractService {
       take,
       skip: (page - 1) * take,
       relations,
+      order: {
+        id: 'ASC',
+      },
     });
 
     return {
